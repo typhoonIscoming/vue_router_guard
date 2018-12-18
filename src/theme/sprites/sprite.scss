@@ -1,0 +1,183 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$family-name: 'family';
+$family-x: 0px;
+$family-y: 69px;
+$family-offset-x: 0px/2;
+$family-offset-y: -69px/2;
+$family-width: 63px/2;
+$family-height: 57px/2;
+$family-total-width: 196px/2;
+$family-total-height: 190px/2;
+$family-image: '~@/img/sprites/sprite.png';
+$family: (0px, 69px, 0px/2, -69px/2, 63px/2 + 1px, 57px/2 + 1px, 196px/2, 190px/2, '~@/img/sprites/sprite.png', 'family', );
+$feedback-name: 'feedback';
+$feedback-x: 0px;
+$feedback-y: 0px;
+$feedback-offset-x: 0px/2;
+$feedback-offset-y: 0px/2;
+$feedback-width: 66px/2;
+$feedback-height: 63px/2;
+$feedback-total-width: 196px/2;
+$feedback-total-height: 190px/2;
+$feedback-image: '~@/img/sprites/sprite.png';
+$feedback: (0px, 0px, 0px/2, 0px/2, 66px/2 + 1px, 63px/2 + 1px, 196px/2, 190px/2, '~@/img/sprites/sprite.png', 'feedback', );
+$guide-name: 'guide';
+$guide-x: 0px;
+$guide-y: 132px;
+$guide-offset-x: 0px/2;
+$guide-offset-y: -132px/2;
+$guide-width: 56px/2;
+$guide-height: 58px/2;
+$guide-total-width: 196px/2;
+$guide-total-height: 190px/2;
+$guide-image: '~@/img/sprites/sprite.png';
+$guide: (0px, 132px, 0px/2, -132px/2, 56px/2 + 1px, 58px/2 + 1px, 196px/2, 190px/2, '~@/img/sprites/sprite.png', 'guide', );
+$invite-friend-name: 'inviteFriend';
+$invite-friend-x: 69px;
+$invite-friend-y: 69px;
+$invite-friend-offset-x: -69px/2;
+$invite-friend-offset-y: -69px/2;
+$invite-friend-width: 60px/2;
+$invite-friend-height: 54px/2;
+$invite-friend-total-width: 196px/2;
+$invite-friend-total-height: 190px/2;
+$invite-friend-image: '~@/img/sprites/sprite.png';
+$invite-friend: (69px, 69px, -69px/2, -69px/2, 60px/2 + 1px, 54px/2 + 1px, 196px/2, 190px/2, '~@/img/sprites/sprite.png', 'inviteFriend', );
+$my-card-name: 'myCard';
+$my-card-x: 62px;
+$my-card-y: 132px;
+$my-card-offset-x: -62px/2;
+$my-card-offset-y: -132px/2;
+$my-card-width: 60px/2;
+$my-card-height: 47px/2;
+$my-card-total-width: 196px/2;
+$my-card-total-height: 190px/2;
+$my-card-image: '~@/img/sprites/sprite.png';
+$my-card: (62px, 132px, -62px/2, -132px/2, 60px/2 + 1px, 47px/2 + 1px, 196px/2, 190px/2, '~@/img/sprites/sprite.png', 'myCard', );
+$my-client-name: 'myClient';
+$my-client-x: 138px;
+$my-client-y: 66px;
+$my-client-offset-x: -138px/2;
+$my-client-offset-y: -66px/2;
+$my-client-width: 58px/2;
+$my-client-height: 58px/2;
+$my-client-total-width: 196px/2;
+$my-client-total-height: 190px/2;
+$my-client-image: '~@/img/sprites/sprite.png';
+$my-client: (138px, 66px, -138px/2, -66px/2, 58px/2 + 1px, 58px/2 + 1px, 196px/2, 190px/2, '~@/img/sprites/sprite.png', 'myClient', );
+$my-invitation-name: 'myInvitation';
+$my-invitation-x: 128px;
+$my-invitation-y: 132px;
+$my-invitation-offset-x: -128px/2;
+$my-invitation-offset-y: -132px/2;
+$my-invitation-width: 60px/2;
+$my-invitation-height: 47px/2;
+$my-invitation-total-width: 196px/2;
+$my-invitation-total-height: 190px/2;
+$my-invitation-image: '~@/img/sprites/sprite.png';
+$my-invitation: (128px, 132px, -128px/2, -132px/2, 60px/2 + 1px, 47px/2 + 1px, 196px/2, 190px/2, '~@/img/sprites/sprite.png', 'myInvitation', );
+$regarding-name: 'regarding';
+$regarding-x: 138px;
+$regarding-y: 0px;
+$regarding-offset-x: -138px/2;
+$regarding-offset-y: 0px/2;
+$regarding-width: 58px/2;
+$regarding-height: 60px/2;
+$regarding-total-width: 196px/2;
+$regarding-total-height: 190px/2;
+$regarding-image: '~@/img/sprites/sprite.png';
+$regarding: (138px, 0px, -138px/2, 0px/2, 58px/2 + 1px, 60px/2 + 1px, 196px/2, 190px/2, '~@/img/sprites/sprite.png', 'regarding', );
+$share-statistic-name: 'shareStatistic';
+$share-statistic-x: 72px;
+$share-statistic-y: 0px;
+$share-statistic-offset-x: -72px/2;
+$share-statistic-offset-y: 0px/2;
+$share-statistic-width: 60px/2;
+$share-statistic-height: 60px/2;
+$share-statistic-total-width: 196px/2;
+$share-statistic-total-height: 190px/2;
+$share-statistic-image: '~@/img/sprites/sprite.png';
+$share-statistic: (72px, 0px, -72px/2, 0px/2, 60px/2 + 1px, 60px/2 + 1px, 196px/2, 190px/2, '~@/img/sprites/sprite.png', 'shareStatistic', );
+$spritesheet-width: 196px;
+$spritesheet-height: 190px;
+$spritesheet-image: '~@/img/sprites/sprite.png';
+$spritesheet-sprites: ($family, $feedback, $guide, $invite-friend, $my-card, $my-client, $my-invitation, $regarding, $share-statistic, );
+$spritesheet: (196px, 190px, '~@/img/sprites/sprite.png', $spritesheet-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-background-size($sprite) {
+  background-size: nth($sprite, 7) nth($sprite, 8);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+  @include sprite-background-size($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

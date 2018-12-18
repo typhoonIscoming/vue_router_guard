@@ -1,0 +1,8 @@
+.background-red{
+    background: red;
+}
+@mixin link-color($normal : black, $hover : red, $visited : deepskyblue ){
+    color: $normal;
+    &:hover{ color: $hover; }
+//  &:visited{ color: $visited; }
+}
